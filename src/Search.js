@@ -8,13 +8,13 @@ export default function Search() {
   const [data, setData] = useState({});
 
   function showWeather(response) {
-    console.log(response.data);
+    // console.log(response.data);
     setData({
       city: response.data.city,
       description: response.data.condition.description,
-      temperature: response.data.temperature.current,
-      humidity: response.data.humidity,
-      wind: response.data.speed,
+      temperature: Math.round(response.data.temperature.current),
+      humidity: response.data.temperature.humidity,
+      wind: response.data.wind.speed,
       icon_url: response.data.condition.icon_url,
     });
   }
