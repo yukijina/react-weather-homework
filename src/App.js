@@ -12,7 +12,10 @@ function App() {
       </div>
       <footer>
         Open-souce code by Yukiji in{' '}
-        <a href='https://github.com/yukijina/react-weather-homework'>
+        <a
+          href='https://github.com/yukijina/react-weather-homework'
+          target='_blank'
+        >
           GitHub 💙
         </a>
       </footer>
