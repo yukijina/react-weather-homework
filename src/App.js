@@ -4,10 +4,18 @@ import Search from './Search';
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>
-        <h1>Weather App</h1>
-      </header>
-      <Search />
+      <div className='App-container'>
+        <header className='App-header'>
+          <h1>Weather App</h1>
+        </header>
+        <Search />
+      </div>
+      <footer>
+        Open-souce code by Yukiji in{' '}
+        <a href='https://github.com/yukijina/react-weather-homework'>
+          GitHub 💙
+        </a>
+      </footer>
     </div>
   );
 }

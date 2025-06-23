@@ -1,7 +1,9 @@
-.App {
+.App-container {
   background-color: #fefefe;
-  max-width: 80rem;
-  margin: 8rem auto;
+  height: 40rem;
+  max-width: 60rem;
+  margin: 8rem auto 1rem auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }
 
 .App-header {
@@ -14,7 +16,29 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
 p,
 input {
   font-size: 1.8rem;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: #136cb0;
+}
+
+a:hover {
+  font-weight: 600;
 }
