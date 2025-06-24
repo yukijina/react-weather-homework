@@ -1,0 +1,14 @@
+.Forecast {
+  display: flex;
+  justify-content: center;
+}
+
+.Forecast li {
+  list-style: none;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.Forecast-img {
+  width: 100%;
+}
