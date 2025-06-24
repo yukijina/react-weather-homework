@@ -14,6 +14,7 @@ export default function Weather({ data }) {
       <div className='Weather'>
         <div>
           <h2>{data.city}</h2>
+          <h3>{data.country}</h3>
           <p>{titleCase(data.description)}</p>
         </div>
 
